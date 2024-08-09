@@ -4,122 +4,119 @@
 <context>
     <name>BigPictureTV</name>
     <message>
-        <location filename="../BigPictureTV.py" line="79"/>
+        <location filename="../bigpicturetv.py" line="67"/>
         <source>External</source>
-        <translation>Écran externe</translation>
+        <translation>Externe</translation>
     </message>
     <message>
-        <location filename="../BigPictureTV.py" line="80"/>
+        <location filename="../bigpicturetv.py" line="68"/>
         <source>Clone</source>
         <translation>Dupliquer</translation>
     </message>
     <message>
-        <location filename="../BigPictureTV.py" line="81"/>
+        <location filename="../bigpicturetv.py" line="69"/>
         <source>Internal</source>
-        <translation>Écran interne</translation>
+        <translation>Interne</translation>
     </message>
     <message>
-        <location filename="../BigPictureTV.py" line="82"/>
+        <location filename="../bigpicturetv.py" line="70"/>
         <source>Extend</source>
-        <translation>Étendre</translation>
+        <translation>Etendre</translation>
     </message>
     <message>
-        <location filename="../BigPictureTV.py" line="239"/>
+        <location filename="../bigpicturetv.py" line="260"/>
         <source>Resume detection</source>
-        <translation>Reprendre la detection</translation>
-    </message>
-    <message>
-        <location filename="../BigPictureTV.py" line="239"/>
-        <source>Pause detection</source>
         <translation>Stopper la detection</translation>
     </message>
     <message>
-        <location filename="../BigPictureTV.py" line="241"/>
+        <location filename="../bigpicturetv.py" line="260"/>
+        <source>Pause detection</source>
+        <translation>Reprendre la detection</translation>
+    </message>
+    <message>
+        <location filename="../bigpicturetv.py" line="262"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
     </message>
     <message>
-        <location filename="../BigPictureTV.py" line="243"/>
+        <location filename="../bigpicturetv.py" line="264"/>
         <source>Exit</source>
         <translation>Quitter</translation>
     </message>
-    <message>
-        <source>BigPictureTV - Settings</source>
-        <translation type="vanished">BigPictureTV - Paramètres</translation>
-    </message>
 </context>
 <context>
-    <name>MainWindow</name>
+    <name>SettingsWindow</name>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>BigPictureTV - Settings</source>
         <translation>BigPictureTV - Paramètres</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Audio output configuration</source>
-        <translation>Sorties audio</translation>
+        <translation>Configuration audio</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Gamemode actions</source>
-        <translation>En passant en mode jeu</translation>
+        <translation>Action en mode jeu</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Close discord</source>
-        <translation>Fermer discord</translation>
+        <translation>Feremr discord</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
+        <source>Enable performance power plan</source>
+        <translation>Activer le mode performances élevées</translation>
+    </message>
+    <message>
+        <location filename="../ui/settings_window.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Desktop</source>
         <translation>Mode bureau</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Gamemode</source>
         <translation>Mode jeu</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Monitor configuration</source>
         <translation>Configuration écrans</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Install audio module</source>
-        <translation>Installer le module audio</translation>
+        <translation>Installer le module de gestion audio</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Window check rate</source>
-        <translation>Fréquence de recherche</translation>
+        <translation>Fréquence d&apos;actualisation</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Disable audio switching</source>
-        <translation>Désactiver la gestion des sorties audio</translation>
+        <translation>Désactiver la gestion de l&apos;audio</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Run at startup</source>
         <translation>Lancer au démarrage</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Disable monitor switching</source>
         <translation>Désactiver la gestion des écrans</translation>
     </message>
     <message>
-        <location filename="../ui/design.ui" line="0"/>
+        <location filename="../ui/settings_window.ui" line="0"/>
         <source>Settings</source>
         <translation>Paramètres</translation>
-    </message>
-    <message>
-        <source>MainWindow</source>
-        <translation type="vanished">BigPictureTV - Paramètres</translation>
     </message>
 </context>
 </TS>

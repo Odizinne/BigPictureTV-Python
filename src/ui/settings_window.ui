@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>452</width>
-    <height>443</height>
+    <height>480</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -87,6 +87,22 @@
        <property name="spacing">
         <number>12</number>
        </property>
+       <item row="0" column="1">
+        <widget class="QCheckBox" name="close_discord_checkbox">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LayoutDirection::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
        <item row="0" column="0">
         <widget class="QLabel" name="close_discord_label">
          <property name="minimumSize">
@@ -100,8 +116,21 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="1">
-        <widget class="QCheckBox" name="close_discord_checkbox">
+       <item row="1" column="0">
+        <widget class="QLabel" name="performance_powerplan_label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Enable performance power plan</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="performance_powerplan_checkbox">
          <property name="minimumSize">
           <size>
            <width>0</width>

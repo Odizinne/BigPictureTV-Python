@@ -71,6 +71,10 @@ def is_discord_installed():
     return os.path.exists(DISCORD_EXE)
 
 
+def switch_power_plan(plan_guid):
+    subprocess.run(["powercfg", "/s", plan_guid])
+
+
 def get_theme():
     return "light" if darkdetect.isDark() else "dark"
 

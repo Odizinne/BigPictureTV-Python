@@ -66,6 +66,15 @@ There are 4 modes available:
 If you'd prefer to skip the screen configuration, simply select `Clone` in BigPictureTV settings.  
 **You're all set!** You can now close the settings window.
 
+### Actions
+
+Actions will be performed when entering gamemode and reverted when going back to desktop.
+
+- Close discord
+Close discord application, reopen minimized
+- Enable performance powerplan
+Revert to balanced in desktop mode
+
 ## Build
 
 - Install Python.

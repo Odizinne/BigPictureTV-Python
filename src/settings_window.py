@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '.\ui\settings_window.ui'
+# Form implementation generated from reading ui file '.\src\ui\settings_window.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.0
 #
@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_SettingsWindow(object):
     def setupUi(self, SettingsWindow):
         SettingsWindow.setObjectName("SettingsWindow")
-        SettingsWindow.resize(452, 443)
+        SettingsWindow.resize(452, 480)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Preferred, QtWidgets.QSizePolicy.Policy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -45,16 +45,26 @@ class Ui_SettingsWindow(object):
         self.gridLayout_3.setContentsMargins(9, 9, 9, 9)
         self.gridLayout_3.setSpacing(12)
         self.gridLayout_3.setObjectName("gridLayout_3")
-        self.close_discord_label = QtWidgets.QLabel(parent=self.actions_frame)
-        self.close_discord_label.setMinimumSize(QtCore.QSize(0, 25))
-        self.close_discord_label.setObjectName("close_discord_label")
-        self.gridLayout_3.addWidget(self.close_discord_label, 0, 0, 1, 1)
         self.close_discord_checkbox = QtWidgets.QCheckBox(parent=self.actions_frame)
         self.close_discord_checkbox.setMinimumSize(QtCore.QSize(0, 25))
         self.close_discord_checkbox.setLayoutDirection(QtCore.Qt.LayoutDirection.RightToLeft)
         self.close_discord_checkbox.setText("")
         self.close_discord_checkbox.setObjectName("close_discord_checkbox")
         self.gridLayout_3.addWidget(self.close_discord_checkbox, 0, 1, 1, 1)
+        self.close_discord_label = QtWidgets.QLabel(parent=self.actions_frame)
+        self.close_discord_label.setMinimumSize(QtCore.QSize(0, 25))
+        self.close_discord_label.setObjectName("close_discord_label")
+        self.gridLayout_3.addWidget(self.close_discord_label, 0, 0, 1, 1)
+        self.performance_powerplan_label = QtWidgets.QLabel(parent=self.actions_frame)
+        self.performance_powerplan_label.setMinimumSize(QtCore.QSize(0, 25))
+        self.performance_powerplan_label.setObjectName("performance_powerplan_label")
+        self.gridLayout_3.addWidget(self.performance_powerplan_label, 1, 0, 1, 1)
+        self.performance_powerplan_checkbox = QtWidgets.QCheckBox(parent=self.actions_frame)
+        self.performance_powerplan_checkbox.setMinimumSize(QtCore.QSize(0, 25))
+        self.performance_powerplan_checkbox.setLayoutDirection(QtCore.Qt.LayoutDirection.RightToLeft)
+        self.performance_powerplan_checkbox.setText("")
+        self.performance_powerplan_checkbox.setObjectName("performance_powerplan_checkbox")
+        self.gridLayout_3.addWidget(self.performance_powerplan_checkbox, 1, 1, 1, 1)
         self.gridLayout_2.addWidget(self.actions_frame, 5, 0, 1, 2)
         self.monitor_frame = QtWidgets.QFrame(parent=self.centralwidget)
         self.monitor_frame.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
@@ -201,6 +211,7 @@ class Ui_SettingsWindow(object):
         self.audio_output_label.setText(_translate("SettingsWindow", "Audio output configuration"))
         self.label_3.setText(_translate("SettingsWindow", "Gamemode actions"))
         self.close_discord_label.setText(_translate("SettingsWindow", "Close discord"))
+        self.performance_powerplan_label.setText(_translate("SettingsWindow", "Enable performance power plan"))
         self.desktop_monitor_label.setText(_translate("SettingsWindow", "Desktop"))
         self.gamemode_monitor_label.setText(_translate("SettingsWindow", "Gamemode"))
         self.monitor_configuration_label.setText(_translate("SettingsWindow", "Monitor configuration"))

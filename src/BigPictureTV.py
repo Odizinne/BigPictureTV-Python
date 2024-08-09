@@ -156,6 +156,7 @@ class BigPictureTV(QMainWindow):
         self.ui.disable_audio_checkbox.setChecked(self.settings.get("disable_audio_switch", False))
         self.ui.checkrate_slider.setValue(self.settings.get("checkrate", 1000))
         self.ui.close_discord_checkbox.setChecked(self.settings.get("discord_action", False))
+        self.ui.performance_powerplan_checkbox.setChecked(self.settings.get("powerplan_action", False))
         self.ui.gamemode_monitor_combobox.setCurrentIndex(self.settings.get("gamemode_monitor", 0))
         self.ui.desktop_monitor_combobox.setCurrentIndex(self.settings.get("desktop_monitor", 0))
         self.ui.disable_monitor_checkbox.setChecked(self.settings.get("disable_monitor_switch", False))
@@ -169,6 +170,7 @@ class BigPictureTV(QMainWindow):
             "disable_audio_switch": self.ui.disable_audio_checkbox.isChecked(),
             "checkrate": self.ui.checkrate_slider.value(),
             "discord_action": self.ui.close_discord_checkbox.isChecked(),
+            "powerplan_action": self.ui.performance_powerplan_checkbox.isChecked(),
             "gamemode_monitor": self.ui.gamemode_monitor_combobox.currentIndex(),
             "desktop_monitor": self.ui.desktop_monitor_combobox.currentIndex(),
             "disable_monitor_switch": self.ui.disable_monitor_checkbox.isChecked(),
@@ -207,6 +209,12 @@ class BigPictureTV(QMainWindow):
     def handle_actions(self, mode):
         if self.ui.close_discord_checkbox.isChecked():
             utils.close_discord() if mode == ModeManager.Mode.GAMEMODE else utils.start_discord()
+
+        if self.ui.performance_powerplan_checkbox.isChecked():
+            if mode == ModeManager.Mode.GAMEMODE:
+                utils.switch_power_plan("8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c")  # High Performance
+            else:
+                utils.switch_power_plan("381b4222-f694-41f0-9685-ff5bb260df2e")  # Balanced
 
     def handle_audio_changes(self, mode):
         if not self.ui.disable_audio_checkbox.isChecked():

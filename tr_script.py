@@ -10,8 +10,8 @@ def run_pylupdate():
         subprocess.run(
             [
                 "pylupdate6.exe",
-                "./src/BigPictureTV.py",
-                "./src/ui/design.ui",
+                "./src/bigpicturetv.py",
+                "./src/ui/settings_window.ui",
                 "-ts",
                 f"./src/tr/{PROJECT}_fr.ts",
                 "-ts",
